@@ -41,7 +41,7 @@ margin:0;
 
 h3 {
   font-family: 'Poiret One', cursive;
-  font-size: 0.8em;
+  font-size: 1em;
   color: #5C5C8A;
 }
 
@@ -51,11 +51,15 @@ p {
   font-size: 0.8em;
 }
 
+
+#wrapper {
+  clear:both;
+  min-height: 400px;
+}
 /*****************************
 HEADER
 *****************************/
 header {
-  float:left;
   margin:0;
   padding:10px 0 0 0;
   width:100%;
@@ -77,6 +81,10 @@ margin: 0;
  font-family: 'Abel', sans-serif;
 font-size: 0.8em;
 color:#6f7d8d;
+}
+
+ul {
+  padding: 0;
 }
 
 
@@ -114,16 +122,18 @@ Page: About
 .profile-picture {
 display: block;
 max-width: 5em;
-    margin: 0 auto 30px;
+    margin: 0 auto 0;
     border-radius: 100%;
 }
 
 #about-page {
+  float:left;
   list-style: none;
   padding: 10px 0 0 0;
+  text-align: center;
 }
 
-#aboutpagelist li{
+#aboutpagelist li {
 display: inline-block;
 width: 100%;
 height: 120px;
@@ -131,11 +141,11 @@ padding: 1.5em 0;
 text-align:center;
 }
 
+
 /*****************************
 FOOTER
 *****************************/
 footer {
-float:left;
   text-align:center;
   width: 100%;
   margin:0;
@@ -143,7 +153,8 @@ font-size:0.75em;
 font-family:'Poiret One', cursive;
     clear:both;
 background-color:#d2dcdf;
-padding-top:50px 0 0;}
+padding-top:50px 0 0;
+margin-top: 30px;}
 
 .social-icon {
 width: 20px;
