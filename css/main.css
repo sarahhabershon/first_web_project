@@ -41,7 +41,7 @@ margin:0;
 
 h3 {
   font-family: 'Poiret One', cursive;
-  font-size: 1em;
+  font-size: 0.8em;
   color: #5C5C8A;
 }
 
@@ -64,6 +64,7 @@ header {
   padding:10px 0 0 0;
   width:100%;
   background-color:#D3D8E3;
+  overflow:hidden;
 }
 /*****************************
 NAV
@@ -133,6 +134,10 @@ max-width: 5em;
   text-align: center;
 }
 
+#about-page p{
+  font-size: 0.8em;
+}
+
 #aboutpagelist li {
 display: inline-block;
 width: 100%;
@@ -145,10 +150,12 @@ text-align:center;
 /*****************************
 FOOTER
 *****************************/
+.clear {clear:both;}
+
 footer {
   text-align:center;
   width: 100%;
-  margin:0;
+  margin:10px 0;
 font-size:0.75em;
 font-family:'Poiret One', cursive;
     clear:both;
