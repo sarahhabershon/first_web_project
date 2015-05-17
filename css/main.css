@@ -1,0 +1,152 @@
+/*****************************
+GENERAL
+*****************************/
+
+a {
+  text-decoration: none;
+}
+
+#wrapper {
+  max-width: 940px;
+  padding: 0 5%;
+  margin: 0 auto;
+  background-color: #ffffff;
+}
+
+#logo {
+text-align: center;
+margin: 0;
+}
+
+img {
+  max-width: 100%;
+}
+
+h1 {
+  font-family: 'Poiret One', cursive;
+  font-size: 4em;
+  font-weight: 600;
+  color:#6f7d8d;
+  padding:2% 0;
+margin:0;
+}
+
+h2 {
+font-family: 'Abel', sans-serif;
+font-size: 1.2em;
+color:#6f7d8d;
+padding:10px;
+margin:0;
+}
+
+h3 {
+  font-family: 'Poiret One', cursive;
+  font-size: 0.8em;
+  color: #5C5C8A;
+}
+
+p {
+  font-family: 'Abel', sans-serif;
+  color: #6f7d8d;
+  font-size: 0.8em;
+}
+
+/*****************************
+HEADER
+*****************************/
+header {
+  float:left;
+  margin:0;
+  padding:10px 0 0 0;
+  width:100%;
+  background-color:#D3D8E3;
+}
+/*****************************
+NAV
+*****************************/
+nav li {
+display:inline-block;
+padding:0;
+margin:0 10px;
+}
+
+nav {
+  text-align: center;
+  padding: 0;
+margin: 0;
+ font-family: 'Abel', sans-serif;
+font-size: 0.8em;
+color:#6f7d8d;
+}
+
+
+nav a, nav a:visited {
+    color:#6f7d8d;
+}
+
+nav a.selected, nav a:hover {
+color:#73cec2;
+}
+/*****************************
+BODY
+*****************************/
+#gallery {
+  list-style:none;
+  padding:0;
+  margin:0;
+  background-color: #ffffff;
+}
+
+#gallery li {
+float:left;
+width: 15%;
+margin: 2.5%;
+background-color: #ffffff;
+color: #ffffff;
+text-align: center;
+}
+
+
+
+/****************************
+Page: About
+*****************************/
+.profile-picture {
+display: block;
+max-width: 5em;
+    margin: 0 auto 30px;
+    border-radius: 100%;
+}
+
+#about-page {
+  list-style: none;
+  padding: 10px 0 0 0;
+}
+
+#aboutpagelist li{
+display: inline-block;
+width: 100%;
+height: 120px;
+padding: 1.5em 0;
+text-align:center;
+}
+
+/*****************************
+FOOTER
+*****************************/
+footer {
+float:left;
+  text-align:center;
+  width: 100%;
+  margin:0;
+font-size:0.75em;
+font-family:'Poiret One', cursive;
+    clear:both;
+background-color:#d2dcdf;
+padding-top:50px 0 0;}
+
+.social-icon {
+width: 20px;
+height: 20px;
+margin: 10px 5px;}
+
