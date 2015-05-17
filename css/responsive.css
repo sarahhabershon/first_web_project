@@ -1,0 +1,51 @@
+@media screen and (min-width: 480px) {
+/*****************************
+Two-column layout
+*****************************/
+
+#primary {
+width: 50%;
+float: left;
+}
+
+#secondary {
+  width: 40%;
+  float:right;
+}
+
+/*****************************
+Portfolio
+#gallery li:nth-child(4n) {
+  clear:left;
+}
+#gallery li {
+width: 15%;
+height: 100%
+}
+*****************************/
+
+
+
+
+.profile-picture {
+    float:left;
+    margin: 0 5% 80px 0;
+
+
+}
+
+}
+
+@media screen and (min-width: 660px){
+
+nav {
+  background:none;
+  float:right;
+  font-size:1.2em;
+  margin-right: 5%;
+  text-align: right;
+  width: 45%;
+}
+
+}
+
